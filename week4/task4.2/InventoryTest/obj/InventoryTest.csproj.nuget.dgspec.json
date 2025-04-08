@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/InventoryTest/InventoryTest.csproj": {}
+  },
+  "projects": {
+    "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/Inventory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/Inventory.csproj",
+        "projectName": "Inventory",
+        "projectPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/Inventory.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbook/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/InventoryTest/InventoryTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/InventoryTest/InventoryTest.csproj",
+        "projectName": "InventoryTest",
+        "projectPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/InventoryTest/InventoryTest.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/InventoryTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbook/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/Inventory.csproj": {
+                "projectPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/Inventory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

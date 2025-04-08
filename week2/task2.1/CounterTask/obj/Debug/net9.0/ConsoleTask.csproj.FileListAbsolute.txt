@@ -1,0 +1,14 @@
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.AssemblyInfoInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.AssemblyInfo.cs
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.csproj.CoreCompileInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/bin/Debug/net9.0/ConsoleTask
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/bin/Debug/net9.0/ConsoleTask.deps.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/bin/Debug/net9.0/ConsoleTask.runtimeconfig.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/bin/Debug/net9.0/ConsoleTask.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/bin/Debug/net9.0/ConsoleTask.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/refint/ConsoleTask.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ConsoleTask.genruntimeconfig.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week2/ConsoleTask/obj/Debug/net9.0/ref/ConsoleTask.dll

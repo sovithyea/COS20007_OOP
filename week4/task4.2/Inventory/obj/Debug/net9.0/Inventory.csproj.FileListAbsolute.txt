@@ -1,0 +1,11 @@
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/bin/Debug/net9.0/Inventory.deps.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/bin/Debug/net9.0/Inventory.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/bin/Debug/net9.0/Inventory.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.AssemblyInfoInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.AssemblyInfo.cs
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.csproj.CoreCompileInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/refint/Inventory.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/Inventory.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week4/task4.2/Inventory/obj/Debug/net9.0/ref/Inventory.dll
