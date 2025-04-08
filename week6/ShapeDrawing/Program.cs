@@ -1,5 +1,5 @@
-﻿using SplashKitSDK;
-using System;
+﻿using System;
+using SplashKitSDK;
 
 public class Program
 {
@@ -9,11 +9,14 @@ public class Program
         Circle,
         Line
     }
+
     public static void Main()
     {
         Window window = new Window("Shape Drawer", 800, 600);
         Drawing drawing = new Drawing();
         ShapeKind kindToAdd = ShapeKind.Circle;
+
+        int numberOfLines = 9;
 
         do
         {
@@ -25,27 +28,37 @@ public class Program
 
             if (SplashKit.MouseClicked(MouseButton.LeftButton))
             {
-                Shape newShape;
                 float x = SplashKit.MouseX();
                 float y = SplashKit.MouseY();
 
-                switch (kindToAdd)
+                if (kindToAdd == ShapeKind.Line)
                 {
-                    case ShapeKind.Rectangle:
-                        newShape = new MyRectangle(Color.Green, x, y, 100, 100);
-                        break;
-                    case ShapeKind.Circle:
-                        newShape = new MyCircle(Color.Blue, x, y, 50);
-                        break;
-                    case ShapeKind.Line:
-                        newShape = new MyLine(Color.Red, x, y, x + 100, y + 50);
-                        break;
-                    default:
-                        newShape = new MyRectangle();
-                        break;
+                    for (int i = 0; i < numberOfLines; i++)
+                    {
+                        float offsetY = i * 10; 
+                        Shape line = new MyLine(Color.Red, x, y + offsetY, x + 100, y + offsetY);
+                        drawing.AddShape(line);
+                    }
                 }
+                else
+                {
+                    Shape newShape;
 
-                drawing.AddShape(newShape);
+                    switch (kindToAdd)
+                    {
+                        case ShapeKind.Rectangle:
+                            newShape = new MyRectangle(Color.Green, x, y, 100, 100);
+                            break;
+                        case ShapeKind.Circle:
+                            newShape = new MyCircle(Color.Blue, x, y, 50);
+                            break;
+                        default:
+                            newShape = new MyRectangle();
+                            break;
+                    }
+
+                    drawing.AddShape(newShape);
+                }
             }
 
             if (SplashKit.MouseClicked(MouseButton.RightButton))
@@ -58,11 +71,6 @@ public class Program
                 drawing.DeleteSelected();
             }
 
-            if (SplashKit.KeyTyped(KeyCode.DeleteKey))
-            {
-                drawing.RemoveLastShape();
-            }
-            
             drawing.Draw();
 
         } while (!SplashKit.WindowCloseRequested("Shape Drawer"));
