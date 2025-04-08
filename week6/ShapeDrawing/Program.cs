@@ -9,7 +9,6 @@ public class Program
         Circle,
         Line
     }
-
     public static void Main()
     {
         Window window = new Window("Shape Drawer", 800, 600);
@@ -58,11 +57,12 @@ public class Program
             {
                 drawing.DeleteSelected();
             }
+
             if (SplashKit.KeyTyped(KeyCode.DeleteKey))
             {
                 drawing.RemoveLastShape();
             }
-
+            
             drawing.Draw();
 
         } while (!SplashKit.WindowCloseRequested("Shape Drawer"));

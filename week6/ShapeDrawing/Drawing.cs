@@ -5,15 +5,12 @@ public class Drawing
 {
     private readonly List<Shape> _shapes;
     private Color _background;
-
     public Drawing(Color background)
     {
         _shapes = new List<Shape>();
         _background = background;
     }
-
     public Drawing() : this(Color.White) { }
-
     public List<Shape> SelectedShapes
     {
         get
@@ -26,30 +23,26 @@ public class Drawing
             return selected;
         }
     }
-
-    public int ShapeCount => _shapes.Count;
-
+    public int ShapeCount
+    {
+        get => _shapes.Count;
+    }
     public Color Background
     {
         get => _background;
         set => _background = value;
     }
-
     public void AddShape(Shape shape) => _shapes.Add(shape);
-
     public void RemoveShape(Shape shape) => _shapes.Remove(shape);
-
     public void RemoveLastShape()
     {
         if (_shapes.Count > 0)
             _shapes.RemoveAt(_shapes.Count - 1);
     }
-
     public void DeleteSelected()
     {
         _shapes.RemoveAll(s => s.Selected);
     }
-
     public void SelectShapesAt(Point2D pt)
     {
         foreach (Shape s in _shapes)
@@ -57,7 +50,6 @@ public class Drawing
             s.Selected = s.IsAt(pt);
         }
     }
-
     public void Draw()
     {
         SplashKit.ClearScreen(_background);
