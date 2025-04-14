@@ -1,4 +1,6 @@
 using SplashKitSDK;
+using System.IO;
+using MyGame;
 
 public class MyRectangle : Shape
 {
@@ -35,7 +37,7 @@ public class MyRectangle : Shape
     public override void LoadFrom(StreamReader reader)
     {
         base.LoadFrom(reader);
-        Width = reader.ReadInt();
-        Height = reader.ReadInt();
+        Width = reader.ReadInteger();
+        Height = reader.ReadInteger();
     }
 }

@@ -1,4 +1,6 @@
 using SplashKitSDK;
+using System.IO;
+using MyGame;
 
 public class MyCircle : Shape
 {
@@ -33,6 +35,6 @@ public class MyCircle : Shape
     public override void LoadFrom(StreamReader reader)
     {
         base.LoadFrom(reader);
-        Radius = reader.ReadInt();
+        Radius = reader.ReadInteger();
     }
 }

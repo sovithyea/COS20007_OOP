@@ -1,4 +1,6 @@
 using SplashKitSDK;
+using System.IO;
+using MyGame;
 
 public class MyLine : Shape
 {

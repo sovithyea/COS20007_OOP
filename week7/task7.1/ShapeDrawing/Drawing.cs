@@ -76,15 +76,16 @@ public class Drawing
     }
     public void Load(string filename)
     {
-        reader = new StreamReader(filename);
-        try
+        using (StreamReader reader = new StreamReader(filename))
         {
-            Background = reader.readColor();
+            Background = reader.ReadColor();
             int count = reader.ReadInteger();
             _shapes.Clear();
+
             for (int i = 0; i < count; i++)
             {
-                string kind = reader.ReadLine();
+                string? kind = reader.ReadLine();
+                if (string.IsNullOrEmpty(kind)) continue;
                 Shape s;
 
                 switch (kind)
@@ -101,12 +102,9 @@ public class Drawing
                     default:
                         continue;
                 }
+
                 s.LoadFrom(reader);
                 _shapes.Add(s);
-            }
-            finally
-            {
-                reader.Close();
             }
         }
     }
