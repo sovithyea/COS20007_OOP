@@ -18,11 +18,24 @@ public class MyRectangle : Shape
         SplashKit.FillRectangle(Color, X, Y, Width, Height);
     }
     public override void DrawOutline()
-    {}
+    {
         SplashKit.DrawRectangle(Color.Black, X - 2, Y - 2, Width + 4, Height + 4);
     }
     public override bool IsAt(Point2D pt)
     {
         return pt.X >= X && pt.X <= X + Width && pt.Y >= Y && pt.Y <= Y + Height;
+    }
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Rectangle");
+        base.SaveTo(writer);
+        writer.WriteLine(Width);
+        writer.WriteLine(Height);
+    }
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        Width = reader.ReadInt();
+        Height = reader.ReadInt();
     }
 }

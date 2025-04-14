@@ -24,4 +24,15 @@ public class MyCircle : Shape
     {
         return SplashKit.PointInCircle(pt, SplashKit.CircleAt(X, Y, Radius));
     }
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Circle");
+        base.SaveTo(writer);
+        writer.WriteLine(Radius);
+    }
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        Radius = reader.ReadInt();
+    }
 }

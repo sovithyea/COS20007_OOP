@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using SplashKitSDK;
-
+using System.IO;
+using MyGame;
 public class Drawing
 {
     private readonly List<Shape> _shapes;
@@ -59,5 +61,53 @@ public class Drawing
             if (s.Selected) s.DrawOutline();
         }
         SplashKit.RefreshScreen();
+    }
+    public void Save(string filename)
+    {
+        using (StreamWriter writer = new StreamWriter(filename))
+        {
+            writer.WriteColor(Background);
+            writer.WriteLine(ShapeCount);
+            foreach (Shape s in _shapes)
+            {
+                s.SaveTo(writer);
+            }
+        }
+    }
+    public void Load(string filename)
+    {
+        reader = new StreamReader(filename);
+        try
+        {
+            Background = reader.readColor();
+            int count = reader.ReadInteger();
+            _shapes.Clear();
+            for (int i = 0; i < count; i++)
+            {
+                string kind = reader.ReadLine();
+                Shape s;
+
+                switch (kind)
+                {
+                    case "Rectangle":
+                        s = new MyRectangle();
+                        break;
+                    case "Circle":
+                        s = new MyCircle();
+                        break;
+                    case "Line":
+                        s = new MyLine();
+                        break;
+                    default:
+                        continue;
+                }
+                s.LoadFrom(reader);
+                _shapes.Add(s);
+            }
+            finally
+            {
+                reader.Close();
+            }
+        }
     }
 }

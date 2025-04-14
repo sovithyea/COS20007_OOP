@@ -1,5 +1,5 @@
 using SplashKitSDK;
-
+using MyGame;
 public abstract class Shape
 {
     private Color _color;
@@ -19,4 +19,16 @@ public abstract class Shape
     public abstract void Draw();
     public abstract void DrawOutline();
     public abstract bool IsAt(Point2D pt);
+    public virtual void SaveTo(StreamWriter writer)
+    {
+        writer.WriteColor(Color);
+        writer.WriteLine(X);
+        writer.WriteLine(Y);
+    }
+    public virtual void LoadFrom(StreamReader reader)
+    {
+        Color = reader.ReadColor();
+        X = reader.ReadFloat();
+        Y = reader.ReadFloat();
+    }
 }

@@ -16,7 +16,7 @@ public class Program
         string? name = Console.ReadLine();
         if (string.IsNullOrEmpty(name))
         {
-            Console.WriteLine("Name can't be empty. Defaulting to 'Guest'.");
+            Console.WriteLine("Name can't be empty. Defaulting to 'Unknown'.");
             name = "Unknown"; 
         }
         int numberOfLines = GetCountFromInput(name);
@@ -68,6 +68,16 @@ public class Program
                 }
             }
 
+            if (SplashKit.KeyTyped(KeyCode.SKey))
+            {
+                drawing.Save("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/Object Oriented Programming-COS20007/COS20007_OOP/week7/task7.1/ShapeDrawing/TestDrawing.txt");
+            }
+
+            if (SplashKit.KeyTyped(KeyCode.OKey))
+            {
+                drawing.Load("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/Object Oriented Programming-COS20007/COS20007_OOP/week7/task7.1/ShapeDrawing/TestDrawing.txt");
+            }
+
             if (SplashKit.MouseClicked(MouseButton.RightButton))
             {
                 drawing.SelectShapesAt(SplashKit.MousePosition());
@@ -82,9 +92,10 @@ public class Program
 
         } while (!SplashKit.WindowCloseRequested("Shape Drawer"));
     }
-     public static int GetCountFromInput(string name)
+    public static int GetCountFromInput(string name)
     {
         int NameCount = name.Length;
         return NameCount;
     }  
+
 }

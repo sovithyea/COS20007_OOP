@@ -26,4 +26,17 @@ public class MyLine : Shape
     {
         return SplashKit.PointOnLine(pt, SplashKit.LineFrom(X, Y, EndX, EndY));
     }
+    public override void SaveTo(StreamWriter writer)
+    {
+        writer.WriteLine("Line");
+        base.SaveTo(writer);
+        writer.WriteLine(EndX);
+        writer.WriteLine(EndY);
+    }
+    public override void LoadFrom(StreamReader reader)
+    {
+        base.LoadFrom(reader);
+        EndX = reader.ReadFloat();
+        EndY = reader.ReadFloat();
+    }
 }
