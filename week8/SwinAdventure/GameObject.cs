@@ -4,7 +4,7 @@
         protected string _name;
         protected string _description;
         
-        public GameObject(string name, string description)
+        public GameObject(string name, string description) : base(ids)        
         {
             _name = name;
             _description = description;

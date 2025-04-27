@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 
 namespace SwinAdventure
-{public class IdentifiableObject : GameObject
+{public class IdentifiableObject
 {
     private List<string> _identifiers = new List<string>();
 
@@ -26,5 +26,5 @@ namespace SwinAdventure
     public string FirstId => _identifiers.Count > 0 ? _identifiers[0] : "";
 
     public override string ShortDescription => $"a {_name} ({FirstId})";
-}
+    }
 }
