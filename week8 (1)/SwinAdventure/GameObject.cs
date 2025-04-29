@@ -11,7 +11,7 @@ namespace SwinAdventure
         }
         public string Name => _name;
 
-        public virtual string ShortDescription => $"a {_name}";
+        public virtual string ShortDescription => $"{_name}";
 
         public virtual string FullDescription => _description;
     }

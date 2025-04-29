@@ -36,6 +36,7 @@ namespace SwinAdventure
             get
             {
                 return $"You are {Name} {base.FullDescription}\n" + "You are carrying:\n" + _inventory.ItemList;
+    
             }
         }
     }
