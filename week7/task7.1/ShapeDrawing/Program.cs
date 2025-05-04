@@ -72,12 +72,12 @@ public class Program
 
             if (SplashKit.KeyTyped(KeyCode.SKey))
             {
-                drawing.Save("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/Object Oriented Programming-COS20007/COS20007_OOP/week7/task7.1/ShapeDrawing/TestDrawing.txt");
+                drawing.Save("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/COS20007_OOP/week7/task7.1/ShapeDrawing/105270743.txt");
             }
 
             if (SplashKit.KeyTyped(KeyCode.OKey))
             {
-                drawing.Load("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/Object Oriented Programming-COS20007/COS20007_OOP/week7/task7.1/ShapeDrawing/TestDrawing.txt");
+                drawing.Load("/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/2025_Semester1/COS20007_OOP/week7/task7.1/ShapeDrawing/105270743.txt");
             }
 
             if (SplashKit.MouseClicked(MouseButton.RightButton))
