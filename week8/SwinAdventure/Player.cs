@@ -1,32 +1,67 @@
+using System;
 namespace SwinAdventure
 {
-    private Inventory _inventory;
-    public Player(string name, string desc) : base(new string[] { "me", "inventory"}, name, desc)
+    public class Player : GameObject
     {
-        _inventory = new Inventory();
-    }
-    public Inventory Inventory
-    {
-        get {
-            return _inventory;
-        }
-    }
-    public GameObject Locate(string id)
-    {
-        if (AreYou(id))
+        public List<Item> Items => _inventory.Items;
+        private Inventory _inventory;
+
+        public Player(string name, string desc) : base(new string[] { "me", "inventory" }, name, desc)
         {
-            return this;
+            _inventory = new Inventory();
         }
-        else
+
+
+        public Inventory Inventory
         {
-            return Inventory.Fetch(id);
+            get {
+                return _inventory;
+            }
         }
-    }
-    public override string FullDescription
-    {
-        get
+
+
+        public GameObject? Locate(string id)
         {
-            return $"You are {Name} {base.FullDesciption}\n" + "You are carrying:\n" + _inventory.ItemList;
+            if (AreYou(id))
+            {
+                return this;
+            }
+            else
+            {
+                return Inventory.Fetch(id);
+            }
+
         }
+        public override string FullDescription
+        {
+            get
+            {
+                return $"You are {Name} {base.FullDescription}\n" + "You are carrying:\n" + _inventory.ItemList;
+            }
+        }
+        public override void SaveTo(StreamWriter writer){
+                base.SaveTo(writer);
+                writer.WriteLine(_inventory.ItemList);
+
+        }
+        public void ListInventory()
+        {
+            Console.WriteLine("You are carrying:");
+            foreach (Item item in _inventory.Items)
+            {
+                Console.WriteLine($" {item.Name} ");
+            }
+        }
+        public override void LoadFrom(StreamReader reader)
+        {
+            base.LoadFrom(reader);
+            string itemDescriptionList = reader.ReadLine();
+
+            Console.WriteLine("Player information");
+            Console.WriteLine(Name);
+            Console.WriteLine($"{Name} (me)");
+            Console.WriteLine(itemDescriptionList);
+        }
+
     }
 }
