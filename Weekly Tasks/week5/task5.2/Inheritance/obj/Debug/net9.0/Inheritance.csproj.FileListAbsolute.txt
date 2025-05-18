@@ -1,0 +1,11 @@
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/bin/Debug/net9.0/Inheritance.deps.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/bin/Debug/net9.0/Inheritance.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/bin/Debug/net9.0/Inheritance.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.AssemblyInfoInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.AssemblyInfo.cs
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.csproj.CoreCompileInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/refint/Inheritance.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/Inheritance.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week5/task5.2/Inheritance/obj/Debug/net9.0/ref/Inheritance.dll

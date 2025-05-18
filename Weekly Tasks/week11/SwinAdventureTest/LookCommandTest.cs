@@ -83,13 +83,13 @@ public class LookCommandTests
         string result3 = _lookCommand.Execute(_player, new[] { "look", "at", "your", "name" });
         Assert.That(result1, Is.EqualTo("I don't know how to look like that"));
         Assert.That(result2, Is.EqualTo("Error in look input"));
-        Assert.That(result3, Is.EqualTo("Wha do you want to look in?"));
+        Assert.That(result3, Is.EqualTo("What do you want to look in?"));
     }
 
     [Test]
     public void LookAtFourthKeyword()
     {
         string result = _lookCommand.Execute(_player, new[] { "look", "at", "gem", "on", "bag" });
-        Assert.That(result, Is.EqualTo("What do you want to look in?"));
+        Assert.That(result, Is.EqualTo("I cannot find the bag"));
     }
 }

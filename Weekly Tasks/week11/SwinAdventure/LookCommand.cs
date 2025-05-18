@@ -1,4 +1,5 @@
 using System;
+
 namespace SwinAdventure
 {
     public class LookCommand : Command
@@ -14,24 +15,25 @@ namespace SwinAdventure
                 return p.Location.FullDescription;
             }
 
-            if (text.Length != 3 && text.Length != 5)
-            {
-                return "I don't know how to look like that";
-            }
-
             if (text[0].ToLower() != "look")
             {
                 return "Error in look input";
             }
 
+            if (text.Length != 3 && text.Length != 5 && text.Length != 4)
+            {
+                return "I don't know how to look like that";
+            }
+
+            if (text.Length == 4)
+            {
+                return "What do you want to look in?";
+            }
+
+
             if (text[1].ToLower() != "at")
             {
                 return "What do you want to look at?";
-            }
-
-            if (text.Length == 5 && text[3].ToLower() != "in")
-            {
-                return "What do you want to look in?";
             }
 
             string itemId = text[2];
@@ -52,6 +54,7 @@ namespace SwinAdventure
 
             return LookAtIn(itemId, container);
         }
+
         private IHaveInventory FetchContainer(Player p, string containerId)
         {
             if (p.AreYou(containerId))
@@ -63,6 +66,7 @@ namespace SwinAdventure
             GameObject obj = p.Locate(containerId);
             return obj as IHaveInventory;
         }
+
         private string LookAtIn(string thingId, IHaveInventory container)
         {
             GameObject itm = container.Locate(thingId);

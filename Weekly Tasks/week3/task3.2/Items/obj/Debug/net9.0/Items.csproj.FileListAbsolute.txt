@@ -1,0 +1,5 @@
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week3/task3.2/Items/obj/Debug/net9.0/Items.csproj.AssemblyReference.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week3/task3.2/Items/obj/Debug/net9.0/Items.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week3/task3.2/Items/obj/Debug/net9.0/Items.AssemblyInfoInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week3/task3.2/Items/obj/Debug/net9.0/Items.AssemblyInfo.cs
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/Object Oriented Programming-COS20007/week3/task3.2/Items/obj/Debug/net9.0/Items.csproj.CoreCompileInputs.cache
