@@ -1,0 +1,15 @@
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/bin/Debug/net9.0/ClockApp
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/bin/Debug/net9.0/ClockApp.deps.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/bin/Debug/net9.0/ClockApp.runtimeconfig.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/bin/Debug/net9.0/ClockApp.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/bin/Debug/net9.0/ClockApp.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.AssemblyInfoInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.AssemblyInfo.cs
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.csproj.CoreCompileInputs.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.sourcelink.json
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/refint/ClockApp.dll
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.pdb
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ClockApp.genruntimeconfig.cache
+/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/Debug/net9.0/ref/ClockApp.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/CounterTask.csproj",
-      "projectName": "CounterTask",
-      "projectPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/CounterTask.csproj",
+      "projectUniqueName": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/ClockApp.csproj",
+      "projectName": "ClockApp",
+      "projectPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/ClockApp.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
       "outputPath": "/Users/macbook/Library/CloudStorage/OneDrive-SwinburneUniversity/University/2025_semester1/COS20007_OOP/Weekly Tasks/week12/task12.1/obj/",
       "projectStyle": "PackageReference",

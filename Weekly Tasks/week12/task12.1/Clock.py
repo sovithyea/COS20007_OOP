@@ -40,10 +40,16 @@ class Clock:
                     self.hours.increment()
 
     def get_time(self):
-        h = 12 if self.hours.get_ticks() == 0 else self.hours.get_ticks()
+        if self.hours.get_ticks() == 0:
+            h = 12
+        else:
+            h = self.hours.get_ticks()
         m = self.minutes.get_ticks()
         s = self.seconds.get_ticks()
-        period = "AM" if self.is_am else "PM"
+        if self.is_am:
+            period = "AM"
+        else:
+            period = "PM"
         return f"{h:02d}:{m:02d}:{s:02d} {period}"
 
     def restart(self):
@@ -73,4 +79,4 @@ def benchmark_clock(ticks_to_run):
 
 # Run benchmark
 if __name__ == "__main__":
-    benchmark_clock(10_000_000)
+    benchmark_clock(50000)
